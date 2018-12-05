@@ -11,32 +11,27 @@ This can be used to copy files on a local shared network.
 # To Run
 
 ```
-PS C:\> & '.\Quartic DataCopy.exe'
+PS C:\Users\Dell\workspace\Quartic DataCopy\Quartic DataCopy\bin\Debug> & '.\Quartic DataCopy.exe' --help
 Quartic DataCopy 1.0.0.0
 Copyright ©  2018
 
-  -v, --verbose    (Default: false) Set output to verbose messages.
+  -v, --verbose          (Default: false) Set output to verbose messages.
 
-  -s, --source     Required. Source directory.
+  -s, --source           Required. Source directory.
 
-  -d, --dest       Required. Destination Directory.
+  -d, --dest             Required. Destination Directory.
 
-  -p, --pattern    (Default: *) Regex pattern to filter files in source directory.
+  -p, --pattern          (Default: *) Regex pattern to filter files in source directory.
 
-  -c, --clean      (Default: false) If set, will clean the files once they're copied.
+  -r, --remove-source    (Default: false) If provided, will delete the source files once they're copied.
 
-  -l, --logdir     Specify the directory for logging. If not specified, no logs will be written.
+  -l, --logdir           Specify the directory for logging. If not specified, no logs will be written.
 
-  --help           Display this help screen.
+  --help                 Display this help screen.
 
-  --version        Display version information.
+  --version              Display version information.
 
 ```
-
-### TODO
-
-- add logging
-- clean check
 
 
 ## Future work
